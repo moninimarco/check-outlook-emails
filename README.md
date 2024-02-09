@@ -8,7 +8,7 @@ Finally, the code automatically sends the report email to my team as a sort of n
 ## Structure
 The following paragraph explains how the code has been developed:
 - importing libraries
-- setting username and password variables which correspond to your Outlook credentials (if you need to access a shared email box then you would set your username variable as follows: *'OWN_USERNAME@outlook.com\\\SHARED_EMAIL_BOX@outlook.com'*)
+- setting username and password variables which correspond to your Outlook credentials (if you need to access a shared email box then you would set your username variable as follows with three back sleshes: *'OWN_USERNAME@outlook.com\\\SHARED_EMAIL_BOX@outlook.com'*)
 - logging-in to the server and your Outlook account
 - select the folder that you prefer to access such as "INBOX"
 - specify the amount of email that you would iterate (depending on the needed amount of emails)
